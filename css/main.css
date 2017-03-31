@@ -1,0 +1,19 @@
+.test-form {
+  margin: 100px; }
+  .test-form label {
+    display: block; }
+    .test-form label span {
+      display: inline-block;
+      width: 100px; }
+    .test-form label input {
+      border: none; }
+    .test-form label input:disabled {
+      background: #000;
+      color: greenyellow; }
+
+.edit {
+  background: #fff;
+  border: none;
+  margin-left: 20px; }
+  .edit .fa {
+    font-size: 20px; }
