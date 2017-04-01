@@ -29,6 +29,8 @@ $(document).ready(()=> {
             }
             testAppend(testData, $testForm)
             testEdit();
+        }).blur(function () {
+            $(this).attr("disabled", "disabled");
         });
     };
 
